@@ -1,0 +1,21 @@
+{
+  "name": "dragon-3d-web-project",
+  "version": "1.0.0",
+  "description": "A web project featuring a 3-D model of a dragon flying and breathing fire.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "three": "^0.136.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "glb-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
